@@ -9,11 +9,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common Project-Elixir stuff.
+# Inherit some common ArcaneOS stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from pine device
 $(call inherit-product, device/xiaomi/pine/device.mk)
+ARCANE_OFFICIAL := true
+ARCANE_DEVICE := PINE
+ARCANE_MAINTAINER := dlwlrma123
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_SUPPORTS_BLUR := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := pine
