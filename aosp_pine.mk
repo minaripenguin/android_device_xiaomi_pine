@@ -17,6 +17,7 @@ $(call inherit-product, device/xiaomi/pine/device.mk)
 ARCANA_OFFICIAL := true
 ARCANA_DEVICE := PINE
 ARCANA_MAINTAINER := dlwlrma123
+ARCANA_GAPPED := true
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_SUPPORTS_BLUR := true
 
