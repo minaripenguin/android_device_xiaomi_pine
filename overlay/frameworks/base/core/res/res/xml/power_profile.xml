@@ -87,5 +87,6 @@
         <value>26</value>
     </array>
     <item name="cpu.idle">9</item>
+    <item name="cpu.suspend">4.81</item>
     <item name="battery.capacity">4000</item>
 </device>
