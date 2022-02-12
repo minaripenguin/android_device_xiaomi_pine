@@ -17,7 +17,7 @@ $(call inherit-product, device/xiaomi/pine/device.mk)
 ARCANA_OFFICIAL := true
 ARCANA_MAINTAINER := dlwlrma123
 TARGET_BOOT_ANIMATION_RES := 720
-TARGET_SUPPORTS_BLUR := true
+TARGET_SUPPORTS_BLUR := false
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := pine
