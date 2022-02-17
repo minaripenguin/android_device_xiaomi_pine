@@ -18,6 +18,7 @@ ARCANA_OFFICIAL := true
 ARCANA_MAINTAINER := dlwlrma123
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_SUPPORTS_BLUR := false
+TARGET_BUILD_GRAPHENEOS_CAMERA ?= true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := pine
