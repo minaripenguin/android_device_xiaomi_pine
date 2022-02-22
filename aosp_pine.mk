@@ -17,7 +17,7 @@ $(call inherit-product, device/xiaomi/pine/device.mk)
 ARCANA_OFFICIAL := true
 ARCANA_MAINTAINER := dlwlrma123
 TARGET_BOOT_ANIMATION_RES := 720
-TARGET_SUPPORTS_BLUR := false
+TARGET_SUPPORTS_BLUR := true
 TARGET_BUILD_GRAPHENEOS_CAMERA ?= true
 COPY_APN_SYSTEM ?= true
 
